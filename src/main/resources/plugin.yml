@@ -1,0 +1,13 @@
+ name: EzMobStack
+ version: 1.0.0
+ description: Simple plugin that stacks mobs
+ author: edkek
+ website: edkek.io
+
+ main: io.edkek.mc.ezmobstack.EzMobStack
+ database: false
+
+ commands:
+   mobstack:
+     description: Edit the config for the plugin EzMobStack.
+     usage: /mobstack <radius>
